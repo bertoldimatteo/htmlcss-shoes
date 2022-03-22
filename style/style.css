@@ -11,10 +11,22 @@
  commons
 -------*/
 
+main section {
+    height: 100vh;
+}
+
+/*------- 
+  header
+-------*/
+
 .nav-bar {
     max-width: 100%;
     text-align: right;
-    background-color: aqua;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 10;
 }
 
 .nav-bar ul li{
@@ -36,6 +48,21 @@
 }
 
 .nav-bar ul li a span {
-    font-weight: bold;
+    font-weight: bold;   
 }
 
+/*------- 
+  body
+-------*/
+
+.red-section {
+    background-color: red;
+}
+
+.green-section {
+    background-color: green;
+}
+
+.yellow-section {
+    background-color: yellow;
+}
