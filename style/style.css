@@ -16,6 +16,10 @@ main section {
     margin: auto;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 /*------- 
   header
 -------*/
