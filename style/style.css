@@ -13,6 +13,7 @@
 
 main section {
     height: 100vh;
+    margin: auto;
 }
 
 /*------- 
@@ -55,7 +56,11 @@ main section {
   body
 -------*/
 
-.red-section {
+.section {
+    position: relative;
+}
+
+.red {
     background-color: red;
 }
 
@@ -65,4 +70,29 @@ main section {
 
 .yellow-section {
     background-color: yellow;
+}
+
+.box-product {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    background-color: aqua;
+    max-width: 700px;
+    max-height: 600px;
+}
+
+.img-product {
+    width: 100%;
+    display: block;
+    margin: auto;
+}
+
+.box-product h2 {
+    font-family: 'Roboto Slab', serif;
+    display: inline-block;
+    font-size: 30px;
+    text-transform: uppercase;
+    word-spacing: 20px;
 }
