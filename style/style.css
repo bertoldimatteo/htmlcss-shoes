@@ -64,21 +64,20 @@ main section {
     background-color: red;
 }
 
-.green-section {
+.green {
     background-color: green;
 }
 
-.yellow-section {
+.yellow {
     background-color: yellow;
 }
 
 .box-product {
     position: absolute;
-    top: 50%;
+    top: 45%;
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
-    background-color: aqua;
     max-width: 700px;
     max-height: 600px;
 }
@@ -92,7 +91,15 @@ main section {
 .box-product h2 {
     font-family: 'Roboto Slab', serif;
     display: inline-block;
-    font-size: 30px;
+    font-size: 50px;
     text-transform: uppercase;
-    word-spacing: 20px;
+    word-spacing: 40px;
+}
+
+.yellow-title {
+    color: yellow;
+}
+
+.green-title {
+    color: green;
 }
